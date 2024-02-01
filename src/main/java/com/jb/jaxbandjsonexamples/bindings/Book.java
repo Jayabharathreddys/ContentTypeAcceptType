@@ -33,4 +33,13 @@ public class Book {
     public void setCost(Double cost) {
         this.cost = cost;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookId=" + bookId +
+                ", bookName='" + bookName + '\'' +
+                ", cost=" + cost +
+                '}';
+    }
 }
